@@ -3,3 +3,8 @@ READ ME
 
 This is a documentation about all the algorithms i will implement in C for
 the course of CEF405: Design and Analysis of Algorithms.
+
+- Implementation of Stack Using Arrays: 
+  The first DS i have implemented in the repo is the Stack which i used Arrays. Created a Stack using dynamic memory
+  allocation. I calculated the time of run(runtime) using the time command when i ran the program e.g. [time ./call].
+  This algorithm implementation is self explanatory and easy to understand.
