@@ -4,14 +4,24 @@ READ ME
 This is a documentation about all the algorithms i will implement in C for
 the course of CEF405: Design and Analysis of Algorithms.
 
+Data Structures Using Arrays
+
 - Implementation of Stack Using Arrays: 
   The first DS i have implemented in the repo is the Stack which i used Arrays. Created a Stack using dynamic memory
   allocation. I calculated the time of run(runtime) using the time command when i ran the program e.g. [time ./call].
   This algorithm implementation is self explanatory and easy to understand.
 
 
-- Implementation of Merge Sort Using Arrays:
+Sorting Algorithms Using Arrays
+
+- Merge Sort:
   This is a sorting algorithm that functions using the divide and conquer approach. The program consist of two functions
   Merge() and MergeSort(). Merge() merges the splitted arrays for sorting while the MergeSort() itself does the sorting
   on the merged arrays. This algorithm in the program as implemented is recursive and divides an array e.g. Array into 
   sub arrays for sorting.
+
+- Shell Sort:
+  Shell sort is a sorting algorithms that beats the O(n2) barrier. It is a sorting algorithms similar to insertion sort
+  but works with values far from each other i.e. values with greater distances in the array cells. I implemented this
+  using arrays for simplicity and easy understanding. This algorithms is efficient than other like: insertion sort, bubble
+  sort etc
