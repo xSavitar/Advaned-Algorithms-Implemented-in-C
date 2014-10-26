@@ -3,6 +3,9 @@
 /* Description: QuickSort Algorithm is based on the divide and conquer approach
 		and is the choice of sorting in most libraries. */
 
+//TODO: Needs to be modified for proper sorting. So far, it reads the elements
+//	sorting is not done correctly.
+
 //include header files
 #include<stdio.h>
 #include<stdlib.h>
