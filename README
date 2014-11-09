@@ -33,3 +33,9 @@ Sorting Algorithms Using Arrays
   but works with values far from each other i.e. values with greater distances in the array cells. I implemented this
   using arrays for simplicity and easy understanding. This algorithms is efficient than other like: insertion sort, bubble
   sort etc
+
+Brute-Force Algorithms
+
+- 2D-Maxima:
+  It is an algorithm meant to count set of points and output the maximum point of the graph using some sort of comparison.
+  This program reads set of points from the stdin and computes the maximum point from the set of points.
