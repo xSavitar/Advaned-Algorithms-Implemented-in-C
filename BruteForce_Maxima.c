@@ -1,7 +1,9 @@
 /* Filename: BruteForce_Maxima.c */
 /* Author: Alangi Derick */
-/* Description: This is a program that is meant to implement the brute-force maxima algorithms
-		of a given set of points in a graph */
+/* Description: This is a program that is meant to implement the brute-force maxima algorithm
+		of a given set of points in a graph, it computes and compares all the points 
+		with each other on the graph using a brute-force approach and returns the maximal
+		points. */
 		
 		
 #include<stdio.h>
@@ -33,7 +35,13 @@ main(void)
 	printf("How many points do you want to enter: ");	
 	scanf("%d", &n);
 	
-	if(n == -1){
+	//read the number of points you want to plot on the graph
+	// if the number of points is less than one, which means no point on the graph
+	//it exits the program.
+	/* But if the number of points is one: it returns the point or if the number of points
+	   is greater than one, then it outputs the maximal points */
+	   
+	if(n < 1){
 		exit(1);
 	}
 	else {
@@ -56,6 +64,7 @@ void Maxima(int n){
 	for(i=0; i<n; i++){
 			maximal = 1;
 			for(j=0; j<n; j++){
+				//printf("point: (%d, %d)\n", points[i].x_coord, points[i].y_coord);
 				//does the comparison of the points.
 				if(i!=j && (points[i].x_coord <= points[j].x_coord) 
 					&& (points[i].y_coord <= points[j].y_coord)){
@@ -64,7 +73,7 @@ void Maxima(int n){
 				}
 		}
 		if(maximal==1){
-				printf("Points %d %d.\n", points[i].x_coord, points[i].y_coord);
+				printf("Maximal point: p(%d, %d).\n", points[i].x_coord, points[i].y_coord);
 			}
 	}
 }
