@@ -1,11 +1,18 @@
 /* Filename: BruteForce_Maxima.c */
 /* Author: Alangi Derick */
+/* Email: alangiderick@gmail.com */
+/* Version: 1.0 */
+/* The next version of solving this program will be the plane-sweep algorithm(Version 2.0) */
+
 /* Description: This is a program that is meant to implement the brute-force maxima algorithm
 		of a given set of points in a graph, it computes and compares all the points 
 		with each other on the graph using a brute-force approach and returns the maximal
 		points. */
 		
-		
+/* This source code is open and can be modified by any individual, maybe for study purpose
+   or anyother and can be redistributed */
+  
+				
 #include<stdio.h>
 #include<stdlib.h>
 
