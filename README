@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 READ ME
 =======
 
@@ -39,3 +40,10 @@ Brute-Force Algorithms
 - 2D-Maxima:
   It is an algorithm meant to count set of points and output the maximum point of the graph using some sort of comparison.
   This program reads set of points from the stdin and computes the maximum point from the set of points.
+=======
+READ ME File
+============
+
+
+This is a file that contains a documentation of my repo.
+>>>>>>> af4af924cd7b7dd7f2b283aff67e2c57c1f1483d
